@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: rgb(22, 22, 22);
+}
+
+h1{
+    font-size: 7vw;
+    color: rgb(12, 113, 160);
+}
+
+.variable{
+    font-size: 9vw;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+.boton{
+    color:white;
+    height: 4vw;
+    padding: 0 2vw;
+    margin: 5vw;
+    border-radius: 0.3vw;
+    border: 0.2vw solid rgb(8, 8, 8);
+    box-shadow: 0.3vw 0.3vw rgb(8, 8, 8);
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+
+.add{
+    background-color: rgb(8, 112, 8);
+}
+
+.reset{
+    background-color: rgb(146, 12, 3);
+}
